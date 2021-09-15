@@ -1,0 +1,21 @@
+{
+    "mods": [
+      {
+        "name": "Visual Triggers",
+        "authors": "GameChanger97",
+        "description": [
+            "Provides a keybind for outlining waypoints and triggers with skeleton debug cylinders.\n",
+            "By defualt \"8\" will toggle waypoints and \"9\" will toggle triggers. \n",
+            "There is also an option in the mod menu: \n",
+            "*The number of lines slider allows you to set the number of line segments you want the debug cylinders to draw with from 6 to 50. \n",
+            "Please see the readme for important info on the functionality and known issues with the mod."
+        ],
+        "types": ["Utility"],
+        "supports": ["BL2"],
+        "latest": "1.0",
+        "versions": {
+          "[1.0]": "https://github.com/GameChanger97/Bl2-Mods"
+        }
+      }
+    ]
+  }
