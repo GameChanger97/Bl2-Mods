@@ -1,0 +1,9 @@
+{
+    "Options": {
+        "Number of lines": 50
+    },
+    "Keybinds": {
+        "Visualize Triggers": "Eight",
+        "Visualize Waypoints": "Nine"
+    }
+}
