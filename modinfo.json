@@ -16,6 +16,7 @@
         "tagline": "Toggle visual outlines for the hitboxes of triggers and waypoints with the press of a key!",
         "types": ["Utility"],
         "supports": ["BL2"],
+          "source": "https://github.com/GameChanger97/Bl2-Mods",
         "latest": "1.0",
         "versions": {
           "1.0": "https://github.com/GameChanger97/Bl2-Mods/blob/main/VisualTriggers/VisualTriggers.zip?raw=true"
