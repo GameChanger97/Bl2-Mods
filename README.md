@@ -16,7 +16,7 @@ Next simply click the Visual Triggers folder in this repo and download the zip f
 - - [Here](https://imgur.com/a/bhRm0Kp) is an example of the same hitbox using 50 lines.
 
 ### Known Issues
-- Because of the way the clear function works, if you have both waypoints and triggers shown, turning one of them off by pressing the keybind again will turn both off.  Both get reset to a ready state though, so you can simply repress the key of the one you didn't want turned off.
+- Because of the way the clear function works, if you have both waypoints and triggers shown, turning one of them off by pressing the keybind again will turn both off.  Both get reset to a ready state though, so you can simply re-press the key of the one you didn't want turned off.
 - Unfortunately, leaving the game or switching maps with the the debug shapes still shown will not reset the keybind to its' ready state.  The side-effect of this is that you will need to press either keybind twice to show the cylinders.  The first time will reset the state and allow the mod to continue to work properly.
 
 If anyone finds a solution to either issue, or finds any additional issues, feel free to let me know on discord at gamechanger97#4552
@@ -28,10 +28,10 @@ The first thing I should mention is, gearbox never does the same thing the same 
 
 #### Boss Arenas
 Boss arenas seem to have numberous small triggers in them.  I really haven't looked too much into if they are used or what they might do yet, but the bunker arena has by far the most I found.  [Example 1](https://imgur.com/a/TB4SmVs) [Example 2](https://imgur.com/a/19XX1Fr)  
-You may have also noticed the floating green one in the clip of the 0 radius trigger, I am pretty sure it is just the defualt position for the waypoint associated with bunker.
+You may have also noticed the floating green one in the clip of the 0 radius trigger, I am pretty sure it is just the default position for the waypoint associated with bunker.
 
 #### Small trigger under the map
-[Here](https://imgur.com/a/rZlqksJ) is an example at Bunker.  I've also seen them in Sanctuary before it is in the air and in 3 horns divide.  I assume it is some defualt that is in all maps, but I just figured I'd mention it.
+[Here](https://imgur.com/a/rZlqksJ) is an example at Bunker.  I've also seen them in Sanctuary before it is in the air and in 3 horns divide.  I assume it is some default that is in all maps, but I just figured I'd mention it.
 
 #### Final Thoughts
-Some of you may have seen earlier builds of this mod that used spheres.  The spheres were initially good for testing, but they fail to take height into consideration so the top and bottom of the spheres did not reflect the true hitbox. [Here](https://imgur.com/a/gsC0WD6) is an example of how the height is useful for precision.  You may find a waypoint on the map that doesn't correspond to any waypoints or triggers, it isn't very common but gearbox did do this a bit.  If you are curious what a debug cylinder corresponds to and can't find anything in any of the missions associated with it, I recommend opening blcmm and searching getall WillowTrigger in object explorer.  This will show you all the triggers and waypoints and if you can find the map, you can go through them looking for fields affiliated with missions or other in game actions.
+Some of you may have seen earlier builds of this mod that used spheres.  The spheres were initially good for testing, but they fail to take height into consideration so the top and bottom of the spheres did not reflect the true hitbox. [Here](https://imgur.com/a/gsC0WD6) is an example of how the height is useful for precision.  You may find a waypoint on the map that doesn't correspond to any waypoints or triggers, it isn't very common but gearbox did do this a bit.  If you are curious what a debug cylinder corresponds to and can't find anything in any of the missions associated with it, I recommend opening blcmm and searching getall WillowTrigger in object explorer.  This will show you all the triggers and waypoints, and if you can find the map, you can go through them looking for fields affiliated with missions or other in game actions.  Also, please note that there isn't total consistency between types.  Sometimes a waypoint also has a trigger, sometimes the waypoint functions as a trigger.  So be sure to check both keybinds before assuming it is broken/missing.
