@@ -3,14 +3,14 @@ A repository for my bl2 mods, currently just visual triggers but maybe I'll make
 ## [Visual Triggers](VisualTriggers/)
 ![Visual Triggers](https://github.com/GameChanger97/Bl2-Mods/blob/main/Borderlands%202%20(32-bit,%20DX9)%209_15_2021%204_17_58%20PM%20(2).png?raw=true)
 Special thanks to ShadowEvil, Mopiod, Apple1417, FromDarkHell, and Juso for all the help with questions.  And an additional thanks to Juso for providing an early working proof of concept.
-- Turn on skeletal outlines of triggers or waypoints with a keybind (default 8 and 9)
+- Turn on skeletal outlines of waypoints or triggers with a keybind (default 8 and 9)
 
 ### Installation 
 Like any python sdk mod, you will need the python sdk which can be downloaded [here](https://github.com/bl-sdk/PythonSDK).
 Next simply click the Visual Triggers folder in this repo and download the zip file.  Then extract the folder into your mods folder which can be found at Steam\steamapps\common\Borderlands 2\Binaries\Win32\Mods
 
 ### Mod Options
-- By default triggers are bound to 8 and waypoints are bound to 9, but feel free to rebind them to whatever you like.  They will appear in the keybind menu [here](https://imgur.com/a/HxIVmRU)
+- By default waypoints are bound to 8 and triggers are bound to 9, but feel free to rebind them to whatever you like.  They will appear in the keybind menu [here](https://imgur.com/a/HxIVmRU)
 - The mods tab in options will also allow you to set the number of lines for the polygon representing the cylinder hitbox to have.  You can use the slider to set it anywhere from 6 to 50.  The more lines, the more accurate to the hitbox so I recommend setting it at or near the max unless you experience performance issues. [Here](https://imgur.com/a/00rg4Yi) is a picture of the menu.
 - - [Here](https://imgur.com/a/QMP2kzu) is an example of a hitbox using the minimum 6 lines.
 - - [Here](https://imgur.com/a/bhRm0Kp) is an example of the same hitbox using 50 lines.
