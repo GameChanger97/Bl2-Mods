@@ -18,6 +18,7 @@ Next simply click the Visual Triggers folder in this repo and download the zip f
 ### Known Issues
 - Because of the way the clear function works, if you have both waypoints and triggers shown, turning one of them off by pressing the keybind again will turn both off.  Both get reset to a ready state though, so you can simply re-press the key of the one you didn't want turned off.
 - Unfortunately, leaving the game or switching maps with the the debug shapes still shown will not reset the keybind to its' ready state.  The side-effect of this is that you will need to press either keybind twice to show the cylinders.  The first time will reset the state and allow the mod to continue to work properly.
+- In order for the game to properly register the keybinds, they need to be set once after a fresh install.  You can change them to whatever you want and then use them and change them right back to default if you want to.  It just needs to be changed once in order to properly set some values.
 
 If anyone finds a solution to either issue, or finds any additional issues, feel free to let me know on discord at gamechanger97#4552
 
